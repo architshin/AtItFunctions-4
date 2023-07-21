@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "hello-function-google",
+      "region": "asia-northeast2",
+      "gen": "GEN_2",
+      "revision": "hello-function-google-00002-bib",
+      "entryPoint": "helloHttp",
+      "runtime": "nodejs18",
+      "testInput": ""
+    }
+  ]
+}
